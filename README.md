@@ -24,3 +24,6 @@ Since we're using functional components we no longer need methods like `componen
 ***Cleanup***: If any function gets returned by the effect function used in useEffect with a non-empty dependency array, that will be called before the updating phase with the previous values of the dependencies.
 
 (Note that the cleanup function will also be called whenever the component gets unmounted, before the unmounting phase).
+
+### Run the app
+`npm run dev` Runs the app in the development mode.
